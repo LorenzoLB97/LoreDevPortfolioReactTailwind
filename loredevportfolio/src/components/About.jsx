@@ -11,7 +11,7 @@ export default function About() {
                         <br className="hidden lg:inline-block" />I love to build amazing apps.
                     </h1>
                     <p className="my-8 leading-relaxed text-2xl">
-                        I am a junior web developer based in Ticino, Switzerland, with a passion for learning and becoming better everyday.
+                        I am a junior software engineer based in Ticino, Switzerland, with a passion for learning and becoming better everyday.
                         I specialize in back-end developement with a working knowledge of front-end technologies.  
                     </p>
                     {/* Buttons */}
