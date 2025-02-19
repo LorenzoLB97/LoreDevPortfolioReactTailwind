@@ -2,6 +2,7 @@
 
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import { Icon } from 'semantic-ui-react'
 
 export default function Navbar() {
     return (
@@ -25,11 +26,15 @@ export default function Navbar() {
                         Skills
                     </a>
                 </nav>
-                
+                <div className="inline-flex items-center border-0 py-1 px-3 mt-4 md:mt-0">
+                    <a className="mr-5" href="https://github.com/fotinh0" target="_blank" rel="noopener noreferrer"><Icon circular inverted name='github' /></a>
+                    <a className="mr-5" href="https://www.linkedin.com/in/foti-ceci/" target="_blank" rel="noopener noreferrer"><Icon circular inverted color='blue' name='linkedin' /></a>
+                </div>
 
+                {/* Hire Me Button */}
                 <a
                     href="#contact"
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                    className="inline-flex items-center text-base text-gray-400 border-0 py-1 px-3 focus:outline-none hover:bg-green-500 hover:text-white rounded mt-4 md:mt-0">
                     Hire Me
                     <ArrowRightIcon className="w-4 h-4 ml-1" />
                 </a>
