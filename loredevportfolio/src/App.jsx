@@ -1,10 +1,10 @@
 // src/App.jsx
 
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Testimonials from "./components/Testimonials";
 
