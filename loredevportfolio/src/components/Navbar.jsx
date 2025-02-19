@@ -12,7 +12,7 @@ export default function Navbar() {
 
                     {/* Logo */}
                     <a href="#about" className="ml-3 text-xl text-green-500">
-                        Foti Ceci
+                        Lorenzo Lo Brutto
                     </a>
                 </a>
 

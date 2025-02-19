@@ -23,6 +23,7 @@ export const skills = [
     "HTML",
     "CSS / Bootstrap",
     "Java",
+    "JUnit",
     "Python",
     "Kotlin",
     "C#",
@@ -30,8 +31,10 @@ export const skills = [
     "OpenGL",
     ".NET MAUI",
     "JavaScript",
-    "React",
+    "React, Tailwind",
     "SQLite",
+    "Spring",
+    "REST",
     "Git & Version Control",
     "Unity"
 ];

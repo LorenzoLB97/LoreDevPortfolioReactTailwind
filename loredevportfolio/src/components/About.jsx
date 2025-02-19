@@ -28,8 +28,13 @@ export default function About() {
                         </a>
                         <a
                             href="https://github.com/LorenzoLB97"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            className="ml-4 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 hover:text-white rounded text-lg">
                             Visit my GitHub
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/lorenzo-lo-brutto-5b5297243/"
+                            className="ml-4 inline-flex text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 hover:text-white rounded text-lg">
+                            LinkedIn
                         </a>
                     </div>
                 </div>
