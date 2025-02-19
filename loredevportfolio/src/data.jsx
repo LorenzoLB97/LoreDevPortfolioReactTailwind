@@ -30,3 +30,15 @@ export const projects = [
         link: "https://pythonbootcamp.com",
     },
 ];
+
+// Skills Data
+export const skills = [
+    "HTML",
+    "CSS / Bootstrap",
+    "JavaScript / jQuery",
+    "React",
+    "Node / Express.js",
+    "MongoDB / Mongoose",
+    "Git & Version Control",
+    "WordPress"
+];
