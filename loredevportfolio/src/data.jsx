@@ -15,30 +15,23 @@ export const projects = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         link: "https://reedbarger.com",
     },
-    {
-        title: "DevChat",
-        subtitle: "React and Firebase",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        link: "https://jsbootcamp.com",
-    },
-    {
-        title: "Epic Todo App",
-        subtitle: "React Hooks",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        link: "https://pythonbootcamp.com",
-    },
 ];
 
 // Skills Data
 export const skills = [
+    "SCRUM",
     "HTML",
     "CSS / Bootstrap",
-    "JavaScript / jQuery",
+    "Java",
+    "Python",
+    "Kotlin",
+    "C#",
+    "C++",
+    "OpenGL",
+    ".NET MAUI",
+    "JavaScript",
     "React",
-    "Node / Express.js",
-    "MongoDB / Mongoose",
+    "SQLite",
     "Git & Version Control",
-    "WordPress"
+    "Unity"
 ];

@@ -7,12 +7,12 @@ export default function About() {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     {/* Hero Description */}
                     <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-white">
-                        Hi there! I'm <span className="text-green-500 font-bold">Foti</span>.  
+                        Hi there! I'm <span className="text-green-500 font-bold">Lorenzo</span>.  
                         <br className="hidden lg:inline-block" />I love to build amazing apps.
                     </h1>
                     <p className="my-8 leading-relaxed text-2xl">
-                        I am a junior web developer based in New York City with a passion for learning and becoming better everyday.
-                        I specialize in front-end developement with a working knowledge of back-end technologies.  
+                        I am a junior web developer based in Ticino, Switzerland, with a passion for learning and becoming better everyday.
+                        I specialize in back-end developement with a working knowledge of front-end technologies.  
                     </p>
                     {/* Buttons */}
                     <div className="flex justify-center">
@@ -25,6 +25,11 @@ export default function About() {
                             href="#projects"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                             View Projects
+                        </a>
+                        <a
+                            href="https://github.com/LorenzoLB97"
+                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            Visit my GitHub
                         </a>
                     </div>
                 </div>
