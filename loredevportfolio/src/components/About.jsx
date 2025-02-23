@@ -1,3 +1,4 @@
+import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import React from "react";
 
 export default function About() {
@@ -7,12 +8,14 @@ export default function About() {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     {/* Hero Description */}
                     <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-white">
-                        Hi there! I'm <span className="text-green-500 font-bold">Lorenzo</span>.  
+                        Hi there! My name is <span className="text-green-500 font-bold">Lorenzo Lo Brutto</span>.  
                         <br className="hidden lg:inline-block" />I love to build amazing apps.
                     </h1>
                     <p className="my-8 leading-relaxed text-2xl">
-                        I am a junior software engineer based in Ticino, Switzerland, with a passion for learning and becoming better everyday.
-                        I specialize in back-end developement with a working knowledge of front-end technologies.  
+                        I am a junior Software Engineer based in Ticino, Switzerland, with a passion for learning and becoming better everyday.
+                        I specialize in back-end developement with a working knowledge of front-end technologies. 
+                        <br /><br />
+                        This website is part of my Portfolio, made with React technology and Tailwind.
                     </p>
                     {/* Buttons */}
                     <div className="flex justify-center">
@@ -35,6 +38,13 @@ export default function About() {
                             href="https://www.linkedin.com/in/lorenzo-lo-brutto-5b5297243/"
                             className="ml-4 inline-flex text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 hover:text-white rounded text-lg">
                             LinkedIn
+                        </a>
+                        <a
+                            href="/Lorenzo_Lo_Brutto_CV_ENG.pdf"
+                            download="Lorenzo_Lo_Brutto_CV_ENG.pdf"
+                            className="ml-4 inline-flex items-center gtext-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 hover:text-white rounded text-lg">
+                            Download CV
+                            <ArrowDownTrayIcon className="w-5 h-5 ml-2" />
                         </a>
                     </div>
                 </div>
