@@ -42,7 +42,7 @@ export default function About() {
                         <a
                             href="/Lorenzo_Lo_Brutto_CV_ENG.pdf"
                             download="Lorenzo_Lo_Brutto_CV_ENG.pdf"
-                            className="ml-4 inline-flex items-center gtext-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 hover:text-white rounded text-lg">
+                            className="ml-4 inline-flex items-center text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 hover:text-white rounded text-lg">
                             Download CV
                             <ArrowDownTrayIcon className="w-5 h-5 ml-2" />
                         </a>
